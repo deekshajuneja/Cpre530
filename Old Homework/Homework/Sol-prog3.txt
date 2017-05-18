@@ -1,0 +1,845 @@
+> cd netdump
+> make
+> run_dump
+strings ./netdump | grep -q netdump
+./netdump
+run_dump: listening on em0
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 52
+Packet Id is 3422
+TTL is 61
+Packet Type: TCP
+The Source IP: 192.188.162.61
+The Destination IP: 129.186.215.41
+TCP Header:
+Source Port: 46200
+Destination Port: 49340
+Sequence: 4153333210
+Ack: 5508152443
+Header length: 0
+Flags:
+URG: 0
+ACK: 0
+PSH: 1
+RST: 1
+SYN: 1
+FIN: 0
+Window Size 12034
+Check sum 59867
+Urgent Pointer 26514
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 130
+Packet Id is 24441
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.41
+The Destination IP: 192.188.162.61
+TCP Header:
+Source Port: 7951
+Destination Port: 33210
+Sequence: 5508149340
+Ack: 4153323
+Header length: cc
+Flags:
+URG: 1
+ACK: 1
+PSH: 1
+RST: 1
+SYN: 0
+FIN: 1
+Window Size 26514
+Check sum 13693
+Urgent Pointer 12034
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 52
+Packet Id is 56150
+TTL is 61
+Packet Type: TCP
+The Source IP: 192.188.162.61
+The Destination IP: 129.186.215.41
+TCP Header:
+Source Port: 59007
+Destination Port: 49340
+Sequence: 4153333210
+Ack: 5508152443
+Header length: 0
+Flags:
+URG: 0
+ACK: 0
+PSH: 1
+RST: 1
+SYN: 1
+FIN: 0
+Window Size 12034
+Check sum 59867
+Urgent Pointer 26514
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24442
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 140.112.8.130
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24443
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 145.18.10.70
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24444
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 130.237.32.143
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24445
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 142.150.210.13
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24446
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 129.186.140.100
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 53385
+TTL is 61
+Packet type: ICMP
+Type: Request
+The Source IP: 129.186.140.100
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: ff:ff:ff:ff:ff:ff
+Source MAC Address: 02:02:81:ba:d7:33
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 33119
+TTL is 241
+Packet type: ICMP
+Type: Request
+The Source IP: 142.150.210.13
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 44120
+TTL is 115
+Packet type: ICMP
+Type: Request
+The Source IP: 145.18.10.70
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 54739
+TTL is 49
+Packet type: ICMP
+Type: Request
+The Source IP: 130.237.32.143
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: ff:ff:ff:ff:ff:ff
+Source MAC Address: 02:01:81:ba:d7:33
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 37275
+TTL is 240
+Packet type: ICMP
+Type: Request
+The Source IP: 140.112.8.130
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:0e:0c:a2:38:88
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 70
+Packet Id is 5644
+TTL is 64
+The packet is an UDP packet
+The Source IP: 129.186.215.56
+The Destination IP: 129.186.1.200
+_________________________________________________
+Destination Hardware Address: 00:0e:0c:a2:38:88
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 123
+Packet Id is 57519
+TTL is 61
+The packet is an UDP packet
+The Source IP: 129.186.1.200
+The Destination IP: 129.186.215.56
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:0e:0c:a2:38:88
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 90
+Packet Id is 5644
+TTL is 64
+The packet is an UDP packet
+The Source IP: 129.186.215.56
+The Destination IP: 129.186.1.200
+_________________________________________________
+Destination Hardware Address: 00:0e:0c:a2:38:88
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 143
+Packet Id is 57520
+TTL is 61
+The packet is an UDP packet
+The Source IP: 129.186.1.200
+The Destination IP: 129.186.215.56
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 1075
+Packet Id is 24447
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.41
+The Destination IP: 192.188.162.61
+TCP Header:
+Source Port: 7000
+Destination Port: 33210
+Sequence: 5508149340
+Ack: 4153323
+Header length: cc
+Flags:
+URG: 1
+ACK: 1
+PSH: 1
+RST: 1
+SYN: 0
+FIN: 1
+Window Size 26514
+Check sum 13771
+Urgent Pointer 12034
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:0e:0c:a2:38:88
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 73
+Packet Id is 5661
+TTL is 64
+The packet is an UDP packet
+The Source IP: 129.186.215.56
+The Destination IP: 129.186.1.200
+_________________________________________________
+Destination Hardware Address: 00:0e:0c:a2:38:88
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 137
+Packet Id is 57559
+TTL is 61
+The packet is an UDP packet
+The Source IP: 129.186.1.200
+The Destination IP: 129.186.215.56
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:0e:0c:a2:38:88
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 73
+Packet Id is 5661
+TTL is 64
+The packet is an UDP packet
+The Source IP: 129.186.215.56
+The Destination IP: 129.186.1.200
+_________________________________________________
+Destination Hardware Address: 00:0e:0c:a2:38:88
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 137
+Packet Id is 57562
+TTL is 61
+The packet is an UDP packet
+The Source IP: 129.186.1.200
+The Destination IP: 129.186.215.56
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:0e:0c:a2:38:88
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 60
+Packet Id is 57794
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.56
+The Destination IP: 65.110.227.219
+TCP Header:
+Source Port: 55996
+Destination Port: 33210
+Sequence: 5509616750
+Ack: 5833159759
+Header length: 0
+Flags:
+URG: 0
+ACK: 0
+PSH: 1
+RST: 0
+SYN: 1
+FIN: 0
+Window Size 34893
+Check sum 63455
+Urgent Pointer 0
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 52
+Packet Id is 6764
+TTL is 61
+Packet Type: TCP
+The Source IP: 192.188.162.61
+The Destination IP: 129.186.215.41
+TCP Header:
+Source Port: 42858
+Destination Port: 49340
+Sequence: 4153333210
+Ack: 5508152443
+Header length: 0
+Flags:
+URG: 0
+ACK: 0
+PSH: 1
+RST: 1
+SYN: 1
+FIN: 0
+Window Size 12034
+Check sum 59867
+Urgent Pointer 26514
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 1454
+Packet Id is 24448
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.41
+The Destination IP: 192.188.162.61
+TCP Header:
+Source Port: 6620
+Destination Port: 33210
+Sequence: 5508149340
+Ack: 4153323
+Header length: cc
+Flags:
+URG: 1
+ACK: 1
+PSH: 1
+RST: 1
+SYN: 0
+FIN: 1
+Window Size 26514
+Check sum 14794
+Urgent Pointer 12034
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 1454
+Packet Id is 24449
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.41
+The Destination IP: 192.188.162.61
+TCP Header:
+Source Port: 6619
+Destination Port: 33210
+Sequence: 5508149340
+Ack: 4153323
+Header length: cc
+Flags:
+URG: 1
+ACK: 1
+PSH: 1
+RST: 1
+SYN: 0
+FIN: 1
+Window Size 26514
+Check sum 16196
+Urgent Pointer 12034
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 52
+Packet Id is 65313
+TTL is 61
+Packet Type: TCP
+The Source IP: 192.188.162.61
+The Destination IP: 129.186.215.41
+TCP Header:
+Source Port: 49844
+Destination Port: 49340
+Sequence: 4153333210
+Ack: 5508152443
+Header length: 0
+Flags:
+URG: 0
+ACK: 0
+PSH: 1
+RST: 1
+SYN: 1
+FIN: 0
+Window Size 12034
+Check sum 59867
+Urgent Pointer 26514
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 1454
+Packet Id is 24450
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.41
+The Destination IP: 192.188.162.61
+TCP Header:
+Source Port: 6618
+Destination Port: 33210
+Sequence: 5508149340
+Ack: 4153323
+Header length: cc
+Flags:
+URG: 1
+ACK: 1
+PSH: 1
+RST: 1
+SYN: 0
+FIN: 1
+Window Size 26514
+Check sum 17598
+Urgent Pointer 12034
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 1454
+Packet Id is 24451
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.41
+The Destination IP: 192.188.162.61
+TCP Header:
+Source Port: 6617
+Destination Port: 33210
+Sequence: 5508149340
+Ack: 4153323
+Header length: cc
+Flags:
+URG: 1
+ACK: 1
+PSH: 1
+RST: 1
+SYN: 0
+FIN: 1
+Window Size 26514
+Check sum 19000
+Urgent Pointer 12034
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 899
+Packet Id is 24452
+TTL is 64
+Packet Type: TCP
+The Source IP: 129.186.215.41
+The Destination IP: 192.188.162.61
+TCP Header:
+Source Port: 7171
+Destination Port: 33210
+Sequence: 5508149340
+Ack: 4153323
+Header length: cc
+Flags:
+URG: 1
+ACK: 1
+PSH: 1
+RST: 1
+SYN: 0
+FIN: 1
+Window Size 26514
+Check sum 20402
+Urgent Pointer 12034
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 52
+Packet Id is 27002
+TTL is 61
+Packet Type: TCP
+The Source IP: 192.188.162.61
+The Destination IP: 129.186.215.41
+TCP Header:
+Source Port: 22620
+Destination Port: 49340
+Sequence: 4153333210
+Ack: 5508152443
+Header length: 0
+Flags:
+URG: 0
+ACK: 0
+PSH: 1
+RST: 1
+SYN: 1
+FIN: 0
+Window Size 12034
+Check sum 59867
+Urgent Pointer 26514
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 10
+Length of the packet: 52
+Packet Id is 64083
+TTL is 61
+Packet Type: TCP
+The Source IP: 192.188.162.61
+The Destination IP: 129.186.215.41
+TCP Header:
+Source Port: 51074
+Destination Port: 49340
+Sequence: 4153333210
+Ack: 5508152443
+Header length: 0
+Flags:
+URG: 0
+ACK: 0
+PSH: 1
+RST: 1
+SYN: 1
+FIN: 0
+Window Size 12034
+Check sum 59867
+Urgent Pointer 26514
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24453
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 140.112.8.130
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24454
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 145.18.10.70
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24455
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 130.237.32.143
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24456
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 142.150.210.13
+_________________________________________________
+Destination Hardware Address: 00:0d:65:d2:4a:e0
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 24457
+TTL is 64
+Packet type: ICMP
+Type: Reply
+The Source IP: 129.186.215.41
+The Destination IP: 129.186.140.100
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 53445
+TTL is 61
+Packet type: ICMP
+Type: Request
+The Source IP: 129.186.140.100
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: 00:50:2c:06:e6:5c
+Source MAC Address: 00:08:74:f9:04:ab
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 136
+Packet Id is 24458
+TTL is 64
+The packet is an UDP packet
+The Source IP: 129.186.215.41
+The Destination IP: 129.186.215.50
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:50:2c:06:e6:5c
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 180
+Packet Id is 23244
+TTL is 64
+The packet is an UDP packet
+The Source IP: 129.186.215.50
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 39114
+TTL is 241
+Packet type: ICMP
+Type: Request
+The Source IP: 142.150.210.13
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: ff:ff:ff:ff:ff:ff
+Source MAC Address: 02:02:81:ba:d7:33
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 44123
+TTL is 115
+Packet type: ICMP
+Type: Request
+The Source IP: 145.18.10.70
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 54740
+TTL is 49
+Packet type: ICMP
+Type: Request
+The Source IP: 130.237.32.143
+The Destination IP: 129.186.215.41
+_________________________________________________
+Destination Hardware Address: ff:ff:ff:ff:ff:ff
+Source MAC Address: 02:01:81:ba:d7:33
+_________________________________________________
+Destination Hardware Address: 00:08:74:f9:04:ab
+Source MAC Address: 00:0d:65:d2:4a:e0
+Packet Type: IP
+IP version: 4
+Header Length: 5
+Type of Service: 0
+Length of the packet: 84
+Packet Id is 37288
+TTL is 240
+Packet type: ICMP
+Type: Request
+The Source IP: 140.112.8.130
+The Destination IP: 129.186.215.41
+^C
+78 packets received by filter
+0 packets dropped by kernel
+Packet Count:
+ARP packet: 0
+IP packets: 44
+Broadcast packets: 4
+ICMP packets: 20
+TCP packets: 14
+DNS packets: 0
+>
